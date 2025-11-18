@@ -141,3 +141,42 @@ Classificação
 Dica de autocuidado
 
 Referência confiável
+
+📸 Prints da Execução
+
+A pasta prints/ contém todos os registros solicitados pelo projeto:
+
+print_01_criacao_agente.png
+
+print_02_configuracao_agente.png
+
+print_03_acao_funcional.png
+
+print_04_execucao_boas_vindas.png
+
+print_05_execucao_perguntas.png
+
+print_06_execucao_calculo.png
+
+print_07_execucao_resultado.png
+
+print_08_execucao_encerramento.png
+
+📚 Referências
+
+Ministério da Saúde – gov.br
+https://www.gov.br/saude
+
+FEBRASGO – Federação Brasileira de Ginecologia e Obstetrícia
+https://www.febrasgo.org.br
+
+Microsoft Azure AI Foundry – Documentação
+https://learn.microsoft.com/azure/ai
+
+👩‍💻 Autora
+Kalina Almeida
+Projeto desenvolvido como parte da formação Microsoft Azure AI.
+
+🌿 Obrigada pela visita!
+Sinta-se à vontade para explorar, testar e contribuir.
+💗 Equilíbrio é o segredo. ✨
