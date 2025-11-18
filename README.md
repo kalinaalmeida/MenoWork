@@ -80,3 +80,74 @@ Limitações:
 - Não oferecer diagnóstico médico
 - Conteúdo apenas educativo
 
+🗂 Estrutura do Repositório
+
+MenoWork/
+│
+├── fluxo/
+│   └── fluxo_MenoWork.png
+│
+├── prints/
+│   ├── print_01_criacao_agente.png
+│   ├── print_02_configuracao_agente.png
+│   ├── print_03_acao_funcional.png
+│   ├── print_04_execucao_boas_vindas.png
+│   ├── print_05_execucao_perguntas.png
+│   ├── print_06_execucao_calculo.png
+│   ├── print_07_execucao_resultado.png
+│   └── print_08_execucao_encerramento.png
+│
+└── README.md
+
+🖼 Fluxograma Oficial do Projeto
+
+O fluxograma disponível em fluxo/fluxo_MenoWork.png apresenta as cinco fases principais do agente:
+
+1. Boas-vindas
+2. Perguntas
+3. Processamento do cálculo
+4. Resultado + dica
+5. Encerramento
+
+🧪 Como Testar o Agente
+
+1. Acesse o Azure AI Foundry
+2. Vá em Agentes → MenoWork
+3. Clique em Open Playground
+4. Digite:
+   Quero iniciar o cálculo de equilíbrio diário
+5. Responda às quatro perguntas
+6. O agente apresentará:
+  Pontuação
+  Classificação
+  Dica de autocuidado
+  Link de referência
+
+📸 Prints da Execução
+
+Todos os prints estão organizados na pasta prints/:
+
+.print_01_criacao_agente.png
+.print_02_configuracao_agente.png
+.print_03_acao_funcional.png
+.print_04_execucao_boas_vindas.png
+.print_05_execucao_perguntas.png
+.print_06_execucao_calculo.png
+.print_07_execucao_resultado.png
+.print_08_execucao_encerramento.png
+
+📚 Referências
+.gov.br – Ministério da Saúde:
+https://www.gov.br/saude
+.Febrasgo – Federação Brasileira de Ginecologia e Obstetrícia:
+https://www.febrasgo.org.br
+.Microsoft Azure AI Foundry – Documentação:
+https://learn.microsoft.com/azure/ai
+
+👩‍💻 Autora
+Kalina Almeida
+Projeto desenvolvido para a formação Microsoft Azure AI.
+
+🌿 Obrigada pela visita!
+Sinta-se à vontade para explorar, testar e contribuir.
+Equilíbrio é o segredo 💗✨
