@@ -69,7 +69,7 @@ O agente retorna:
 ✔ Dica prática
 ✔ Link de referência confiável
 
-🗂 Estrutura do Repositório
+
 ## 🗂 Estrutura do Repositório
 
 - **fluxo/**
@@ -123,21 +123,22 @@ Cálculo e resultado
 
 🔗 Referências Utilizadas
 
-Ministério da Saúde – gov.br
+## 📚 Referências
 
-FEBRASGO – Federação Brasileira das Associações de Ginecologia e Obstetrícia
+- [Ministério da Saúde – gov.br](https://www.gov.br/saude)
+- [FEBRASGO – Federação Brasileira das Associações de Ginecologia e Obstetrícia](https://www.febrasgo.org.br)
+- [Organização Mundial da Saúde – OMS](https://www.who.int)
 
-OMS – Organização Mundial da Saúde
 
 As referências foram utilizadas para informações gerais sobre menopausa e bem-estar.
 
-🛑 Limitações do Agente
 
-Não oferece diagnóstico médico.
+## 🛑 Limitações do Agente
 
-Não substitui acompanhamento profissional de saúde.
+- Não oferece diagnóstico médico.  
+- Não substitui acompanhamento profissional de saúde.  
+- Todas as informações têm caráter educativo e de apoio.
 
-Todas as informações têm caráter educativo e de apoio.
 
 ✨ Autora
 
