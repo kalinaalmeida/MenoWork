@@ -1,151 +1,157 @@
-# 🌸 MenoWork  
-### Agente de IA para Bem-Estar Feminino no Ambiente de Trabalho
+🌸 MenoWork
 
-O **MenoWork** é um agente de Inteligência Artificial criado no **Microsoft Azure AI Foundry** para apoiar mulheres que vivenciam a menopausa ou o climatério enquanto continuam ativas profissionalmente.  
-Com linguagem acolhedora e orientações confiáveis, o agente promove **equilíbrio, autocuidado e bem-estar** no contexto profissional.
+Agente de IA para apoio ao bem-estar de mulheres na menopausa no ambiente de trabalho
+Projeto desenvolvido como entrega final do curso da Microsoft (AI Foundry).
 
----
+💡 Visão Geral
 
-## 🎯 Objetivo do Projeto
+O MenoWork é um agente de Inteligência Artificial criado para apoiar mulheres que estão vivenciando a menopausa ou o climatério enquanto seguem ativas profissionalmente.
+Ele oferece orientações acolhedoras, informações de qualidade e uma funcionalidade especial chamada Cálculo de Equilíbrio Diário, ajudando a usuária a monitorar seu bem-estar físico e emocional ao longo do dia.
 
-- Construir um agente funcional utilizando Azure AI Foundry.  
-- Aplicar técnicas de prompt engineering.  
-- Entregar uma **ação funcional obrigatória** (Cálculo de Equilíbrio Diário).  
-- Documentar o processo de forma clara, organizada e reprodutível.  
-- Conectar inteligência artificial a um tema de impacto social: **bem-estar feminino**.
+Esse projeto cumpre integralmente os requisitos de elegibilidade:
+✔ README completo
+✔ Agente funcional publicado no AI Foundry
+✔ Ação funcional
+✔ Prints do processo
+✔ Fluxograma
+✔ Repositório organizado
 
----
+🎯 Objetivo do Agente
 
-## 🤖 Funcionamento do Agente
+Apoiar mulheres em fase de menopausa/climatério.
 
-O MenoWork avalia o **Equilíbrio Diário** da usuária a partir de quatro perguntas:
+Oferecer orientações simples, seguras, empáticas e baseadas em fontes confiáveis.
 
-1. Horas de sono.  
-2. Qualidade da alimentação (saudável / moderada / ruim).  
-3. Prática de atividade física.  
-4. Nível de estresse no trabalho (1 a 5).
+Promover equilíbrio entre saúde, bem-estar e produtividade no ambiente de trabalho.
 
-### 🔢 Lógica da pontuação
+Auxiliar com um cálculo diário para medir o nível de equilíbrio e autocuidado.
 
-- **Sono:**  
-  ≥7h → +3  
-  5–6h → +2  
-  <5h → +1  
+🤖 Como o MenoWork Funciona
 
-- **Alimentação:**  
-  Saudável → +3  
-  Moderada → +2  
-  Ruim → +1  
+O agente interage com a usuária em tom acolhedor e realiza a funcionalidade principal:
 
-- **Atividade física:**  
-  Sim → +2  
-  Não → +0  
+🧮 Cálculo de Equilíbrio Diário
 
-- **Estresse:**  
-  ≤2 → +2  
-  3 → +1  
-  ≥4 → +0  
+Ele faz quatro perguntas:
 
-### 🧩 Classificação final
+Horas de sono
 
-- **8–10:** Excelente! Seu bem-estar está equilibrado hoje 💪  
-- **5–7:** Razoável. Que tal um momento de autocuidado? 🌿  
-- **0–4:** Atenção! Cuide-se um pouco mais 💗  
+Qualidade da alimentação
 
----
+Se praticou atividade física
 
-## 🧠 Prompt Utilizado (Instruções do Agente)
+Nível de estresse no trabalho (1 a 5)
 
-O MenoWork foi configurado com instruções que definem:
+Com isso, calcula uma pontuação de 0 a 10 seguindo esta regra:
 
-- Tom empático e acolhedor  
-- Linguagem acessível  
-- Conteúdo confiável e educativo  
-- Limitações claras (não substitui orientação médica)  
-- Realização do cálculo diário  
-- Entrega de pontuação, classificação, dica e link  
+Sono
+≥7h: +3 • 5–6h: +2 • <5h: +1
 
-Esse conjunto de instruções garante coerência, segurança e personalidade no diálogo.
+Alimentação
+saudável: +3 • moderada: +2 • ruim: +1
 
----
+Atividade física
+sim: +2 • não: +0
 
+Estresse
+≤2: +2 • 3: +1 • ≥4: +0
+
+📊 Classificação
+
+8–10: Excelente equilíbrio 💪
+
+5–7: Razoável, precisa de um cuidado extra 🌿
+
+0–4: Atenção! Sugere descanso e autocuidado 💗
+
+O retorno sempre inclui:
+✔ pontuação
+✔ interpretação
+✔ dica prática
+✔ link de referência confiável
+
+🗂 Estrutura do Repositório
 ## 🗂 Estrutura do Repositório
 
-MenoWork/
-│
-├── fluxo/
-│ └── fluxo_MenoWork.png
-│
-├── prints/
-│ ├── print_01_criacao_agente.png
-│ ├── print_02_configuracao_agente.png
-│ ├── print_03_acao_funcional.png
-│ ├── print_04_execucao_boas_vindas.png
-│ ├── print_05_execucao_perguntas.png
-│ ├── print_06_execucao_calculo.png
-│ ├── print_07_execucao_resultado.png
-│ └── print_08_execucao_encerramento.png
-│
-└── README.md
+- **fluxo/**
+  - fluxo_MenoWork.png — Fluxograma completo do agente
 
+- **prints/**
+  - print_01_criacao_agente.png — Criação do agente
+  - print_02_configuracao_agente.png — Configuração básica
+  - print_03_acao_funcional.png — Funcionalidade principal
+  - print_04_execucao_boas_vindas.png — Mensagem de boas-vindas
+  - print_05_execucao_perguntas.png — Perguntas do cálculo
+  - print_06_execucao_calculo.png — Execução do cálculo
+  - print_07_execucao_resultado.png — Resultado e recomendação
+  - print_08_execucao_encerramento.png — Encerramento da conversa
 
----
+- **README.md** — Documentação principal do projeto
 
-## 🧪 Como Testar o Agente
+🧩 Fluxograma Oficial
 
-1. Acesse o **Azure AI Foundry**.  
-2. Vá em **Agentes → MenoWork**.  
-3. Clique em **Open Playground**.  
-4. Envie a frase:  
-   **"Quero iniciar o cálculo de equilíbrio diário."**  
-5. Responda às quatro perguntas.  
-6. O agente retornará:  
-   - A pontuação total  
-   - A classificação do dia  
-   - Uma dica de autocuidado  
-   - Um link confiável  
+Arquivo em:
+📁 fluxo/fluxo_MenoWork.png
 
----
+Representa as 5 etapas principais do agente:
 
-## 📸 Prints da Execução
+Boas-vindas
 
-Os prints solicitados no projeto estão organizados em:
+Coleta das respostas
 
-📁 **prints/**  
-- print_01_criacao_agente.png  
-- print_02_configuracao_agente.png  
-- print_03_acao_funcional.png  
-- print_04_execucao_boas_vindas.png  
-- print_05_execucao_perguntas.png  
-- print_06_execucao_calculo.png  
-- print_07_execucao_resultado.png  
-- print_08_execucao_encerramento.png  
+Execução do cálculo
 
-📁 **fluxo/**  
-- fluxo_MenoWork.png  
+Geração da classificação
 
----
+Mensagem final + dica
 
-## 📚 Referências
+📸 Prints da Execução
 
-- Ministério da Saúde – gov.br  
-  https://www.gov.br/saude  
+Todos os prints obrigatórios estão em:
+📁 prints/
 
-- FEBRASGO – Federação Brasileira das Associações de Ginecologia e Obstetrícia  
-  https://www.febrasgo.org.br  
+Eles incluem:
 
-- Documentação Microsoft Azure AI  
-  https://learn.microsoft.com/azure/ai  
+Criação do agente
 
----
+Configuração
 
-## 👩‍💻 Autora
+Funcionalidade principal
 
-**Kalina Almeida**  
-Projeto desenvolvido como parte da formação **Microsoft Azure AI**.
+Boas-vindas
 
----
+Perguntas
 
-🌿 **Obrigada pela visita!**  
-Sinta-se à vontade para explorar, testar e contribuir.  
-💗 *Equilíbrio é o segredo.* ✨
+Cálculo
+
+Resultado
+
+Encerramento
+
+🔗 Referências Utilizadas
+
+Ministério da Saúde / gov.br
+
+FEBRASGO – Federação Brasileira das Associações de Ginecologia e Obstetrícia
+
+OMS – Organização Mundial da Saúde
+
+Todas utilizadas para construção de conteúdo educativo e não clínico.
+
+🛑 Limitações do Agente
+
+Não substitui orientação médica.
+
+Não realiza diagnósticos.
+
+Todas as respostas são educativas e de apoio.
+
+✨ Autora
+
+Projeto desenvolvido por Kalina Almeida
+🔗 GitHub: https://github.com/kalinaalmeida
+
+🌿 Obrigada pela visita!
+
+Sinta-se à vontade para explorar, testar e contribuir.
+Equilíbrio é o segredo 💗✨
