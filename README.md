@@ -1,7 +1,3 @@
-🌸 README — Versão Revisada FINAL
-
-(Cole exatamente como está no README.md do GitHub)
-
 # 🌸 MenoWork — Agente de IA para Bem-Estar Feminino no Ambiente de Trabalho
 
 O **MenoWork** é um agente de Inteligência Artificial desenvolvido no **Microsoft Azure AI Foundry** para apoiar mulheres que vivenciam a menopausa ou o climatério enquanto seguem ativas profissionalmente.  
