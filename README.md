@@ -153,10 +153,8 @@ print_08_execucao_encerramento.png
 
 📚 Referências
 
-Ministério da Saúde – gov.br
-
-FEBRASGO – Federação Brasileira de Ginecologia e Obstetrícia
-
+[Ministério da Saúde – gov.br](https://www.gov.br/saude)  
+[FEBRASGO](https://www.febrasgo.org.br)  
 Microsoft Azure AI Foundry – Documentação
 
 👩‍💻 Autora
