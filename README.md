@@ -17,7 +17,6 @@ Projeto final do curso **Microsoft AI Foundry**.
 8. [Referências](#referências)  
 9. [Limitações](#limitações)  
 10. [Colaboradores](#colaboradores)  
-11. [Licença](#licença)  
 
 ---
 
